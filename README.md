@@ -4,6 +4,10 @@
 ```
 git clone https://github.com/Squeeznk/ubuntu-node-yarn.git
 ```
+## Goto directory
+```
+cd ubuntu-node-yarn
+```
 
 ## Build docker image of Ubuntu + Node
 ```
