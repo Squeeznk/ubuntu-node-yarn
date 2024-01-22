@@ -16,7 +16,7 @@ docker build -t ubuntu-node-yarn .
 
 ## Run docker image of Ubuntu + Node in a container
 ```
-docker run -it -d Squeeznk/ubuntu-node-yarn
+docker run -it -d ubuntu-node-yarn
 ```
 
 ## To go inside the last created container
