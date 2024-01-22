@@ -25,5 +25,5 @@ RUN curl -SL https://nodejs.org/dist/v$NODE_VERSION/$NODE_FILEPATH.tar.xz -o $TM
 # Install the latest version of Yarn
 RUN curl -SL https://yarnpkg.com/latest.tar.gz -o $TMP/latest.tar.gz \
     && cd $TMP/ && tar -zxf latest.tar.gz && rm latest.tar.gz \
-    && mv $TMP/dist /opt/yarn \
+    && mv $TMP/yarn* /opt/yarn \
     && ln -sf /opt/yarn/bin/yarn /usr/bin/yarn
