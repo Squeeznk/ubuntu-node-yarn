@@ -1,8 +1,13 @@
 # How to use
 
+## Clone this repo
+```
+git clone https://github.com/Squeeznk/ubuntu-node-yarn.git
+```
+
 ## Build docker image of Ubuntu + Node
 ```
-docker build -t Squeeznk/ubuntu-node-yarn .
+docker build -t ubuntu-node-yarn .
 ```
 
 ## Run docker image of Ubuntu + Node in a container
