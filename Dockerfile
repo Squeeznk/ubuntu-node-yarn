@@ -3,7 +3,7 @@ MAINTAINER Ruhl Anton <a.ruhl@gmailautomacon.com>
 
 # Setting Enviroment variables
 ENV NODE_VERSION 21.6.1
-ENV NODE_ARCH x64
+ENV NODE_ARCH arm64
 ENV TMP /tmp
 ENV NODE_FILEPATH node-v$NODE_VERSION-linux-$NODE_ARCH
 
